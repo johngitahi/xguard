@@ -1,8 +1,5 @@
 # xguard
 
-[![PyPI version](https://badge.fury.io/py/xguard.svg)](https://badge.fury.io/py/xguard)
-![License: GPLv3](https://img.shields.io/github/license/johngitahi/xguard?style=flat)
-
 Xguard is yet another guard clause library.
 
 ## What are Guard Clauses
