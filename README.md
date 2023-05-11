@@ -8,8 +8,8 @@ Xguard is yet another guard clause library.
 ## What are Guard Clauses
 A guard clause is simply a check that immediately exits the function, either with a return statement or an exception. If you're used to writing functions that check to ensure everything is valid for the function to run, then you write the main function code, and then you write else statements to deal with error cases, this involves inverting your current workflow. The benefit is that your code will tend to be shorter and simpler, and less deeply indented. [Credit](https://deviq.com/design-patterns/guard-clause)
 
-## How to use this library
-Using this library is easy. Just import the library, create an instance of the Xguard class, and start chaining your guard clauses together.
+## How to use this package 
+Using this package is easy. Just import the package, create an instance of the Xguard class, and start chaining your guard clauses together.
 
 In dev mode, if you still encounter a lot of import errors, and you think you know what you are doing, try to add the xguard dir to the python path.
 ```
@@ -35,6 +35,11 @@ print(res)
 # Good Issue: Try to use the guard clauses in a factorial function
 ```
 See? Easy!
+
+# For testing
+``` python
+python -m unittest discover tests/
+```
 
 ## Why I wrote the library
 I wrote xguard because I wanted to create something useful for other developers like myself. As someone who has written a lot of code, I know how frustrating it can be to spend time tracking down errors caused by bad inputs. I wanted to make it easier for developers to catch these issues early on and write more robust code.
