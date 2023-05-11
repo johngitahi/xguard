@@ -4,9 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "xguard"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
-  { name="John Gitahi", email="gitahi109@gmail.com" },
+  { name="John Gitahi", email="gitahi109@gmail.com", website="https://gitahi.me" },
 ]
 description = "yet another guard clause library"
 readme = "README.md"
