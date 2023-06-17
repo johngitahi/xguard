@@ -39,11 +39,11 @@ python -m unittest discover tests/
 ```
 
 ## Why I wrote the library
-I wrote xguard because I wanted to create something useful for other developers like myself. As someone who has written a lot of code, I know how frustrating it can be to spend time tracking down errors caused by bad inputs. I wanted to make it easier for developers to catch these issues early on and write more robust code.
+I wrote xguard because I wanted to write a python library/module for fun
 
-It was also an opporuinty for me to improve on a similar project by Adrian without wrecking his original idea. I am adding some extra features like custom error messages to make it more powerful and flexible. With custom error messages, developers can quickly understand what went wrong when a guard clause fails.
+It was also an opporuinty for me to improve on a similar project by Adrian without wrecking his code. I am adding custom error messages to make it more usable and flexible. With custom error messages, developers can quickly understand what went wrong when a guard clause fails.
 
-Overall, my main motivation for creating xguard was to write something that I found useful and that I hope other developers will find useful as well. I believe in the power of open source software and I would love for others to contribute to the project. If you have any feedback or suggestions, please feel free to share them or even open a pull request on GitHub. Together, we can make xguard even better.
+I believe in the power of open source software and I would love for others to contribute to this minimal/simple project. If you have any feedback or suggestions, please feel free to share them or open a pull request.
 
 ## Documentation
 Each guard method is documented with a docstring that explains its purpose and usage, following the reST style. You can access the documentation for each method using Python's built-in `help` function
