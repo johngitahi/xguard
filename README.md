@@ -43,7 +43,7 @@ I wrote xguard because I wanted to write a python library/module for fun
 
 It was also an opporuinty for me to improve on a similar project by Adrian without wrecking his code. I am adding custom error messages to make it more usable and flexible. With custom error messages, developers can quickly understand what went wrong when a guard clause fails.
 
-I believe in the power of open source software and I would love for others to contribute to this minimal/simple project. If you have any feedback or suggestions, please feel free to share them or open a pull request.
+I believe in the power of open source software and I would love for others to contribute to this minimal/simple project. If you have any feedback or suggestions, please feel free to share them or open a issue.
 
 ## Documentation
 Each guard method is documented with a docstring that explains its purpose and usage, following the reST style. You can access the documentation for each method using Python's built-in `help` function
